@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 68%;
+    height: 220vh;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+
+
+.header {
+    border-radius: 5px;
+    color: white;
+    background-color: #3D5B81;
+    padding: 25px;
+
+}
+
+.finder {
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #3D5B81;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.hhg {
+    display: flex;
+}
+
+.find {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+
+.wid {
+    margin-top: 20px;
+    border: 1px solid white;
+    width: 17%;
+    padding: 4px;
+    cursor: pointer;
+}
+.wid:hover{
+    color: blue;
+}
+
+.all {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: .5s ease;
+    padding-left: 10px;
+}
+
+.all:hover {
+    color: black;
+    background-color: white;
+}
+
+.toH:hover {
+    color: black;
+    background-color: white;
+    transition: .5s ease;
+} 
+.toH {
+    
+    padding-left: 10px;
+} 
+
+
+.salary {
+    padding-left: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: .5s ease;
+
+}
+
+.salary:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.staffAdd {
+    margin-top: 25px;
+    background-color: #3D5B81;
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.foot {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.btn {
+    all: unset;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.table {
+    border: 1px solid #E3E3E3FF;
+}
+
+.staffAdd h2 {
+    margin-bottom: 20px;
+}
+
+.foot {
+    width: 350px;
+    margin-right: 10px;
+
+    height: 45px;
+}
+
+.btn1 {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    background-color: blue;
+    height: 45px;
+    transition: .5s ease;
+    font-weight: 600;
+    border: none;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: white;
+    color: blue;
+}
+
+.tr {
+    font-size: 20px;
+
+}
+
+.active {
+    color: black;
+    background-color: white;
+    
+}
+input{
+    border: none;
+}

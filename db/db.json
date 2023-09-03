@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "increase": false,
+      "rise": false,
+      "name": "hfdf",
+      "salary": "423",
+      "id": 2
+    },
+    {
+      "increase": true,
+      "rise": false,
+      "name": "Azamxon",
+      "salary": "423",
+      "id": 3
+    },
+    {
+      "increase": true,
+      "rise": false,
+      "name": "Azamxon",
+      "salary": "423",
+      "id": 4
+    },
+    {
+      "increase": true,
+      "rise": false,
+      "name": "Azamxon",
+      "salary": "423",
+      "id": 5
+    },
+    {
+      "increase": false,
+      "rise": true,
+      "name": "Azamxon",
+      "salary": "312321",
+      "id": 8
+    },
+    {
+      "increase": false,
+      "rise": false,
+      "name": "Azamxon",
+      "salary": "312321",
+      "id": 10
+    }
+  ]
+}

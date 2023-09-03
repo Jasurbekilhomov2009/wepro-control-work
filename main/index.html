@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Учет сотрудников в компаний Wepro</h2>
+        <h3 class="totalStaff">Общее число сотрудников:</h3>
+        <h3 class="prime">Премию получат:</h3>
+      </div>
+
+      <div class="finder">
+        <form class="finder1" action="#" name="search">
+          <input type="text" placeholder="Найти сотрудника" class="find" />
+        </form>
+        <div class="hhg">
+          <div class="all wid active">Все сотрудники</div>
+          <div class="toH wid">На повышение</div>
+          <div class="salary wid">З/П больше 1000$</div>
+        </div>
+      </div>
+
+      <table class="table">
+        <tbody>
+          <i style="color: gold" class="bi bi-star-fill"></i>
+        </tbody>
+      </table>
+
+      <div class="staffAdd">
+        <h2>Добавьте нового сотрудника</h2>
+        <form action="#" name="add">
+          <input type="text" name="name" class="foot" placeholder="Как его зовут?" />
+          <input type="text" name="salary" class="foot" placeholder="З/П в $?" />
+          <button class="btn1">Добавить</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
